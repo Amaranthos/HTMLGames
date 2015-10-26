@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<title>Breakout</title>
+	</head>
+	<body>
+		<canvas id="gameCanvas" width="800" height="600"></canvas>
+
+		<script>
+			// Ball Members
+			const ballRadius = 10;
+			const ballColour = "white";
+
+			var ballPosX = ballRadius; 
+			var ballPosY = ballRadius;
+
+			var ballVelX = 5;
+			var ballVelY = 5;
+
+			// Paddle Members
+			const paddleWidth = 100;
+			const paddleHeight = 10;
+			const paddleVertPadding = 60;
+			const paddleColour = "white";
+
+			var paddlePosX = 400;
+			var paddlePosY = 0;
+
+			// Engine Variables
+			var canvas, canvasContext;
+			var fps = 30;
+			const clearColour = "black";
+
+			window.onload = function() {
+				// Setup canvas
+				canvas = document.getElementById("gameCanvas");
+				canvasContext = canvas.getContext('2d');
+
+				// Run game loop
+				setInterval(GameLoop, 1000/fps);
+				canvas.addEventListener('mousemove', UpdateMouse);
+
+				paddlePosY = canvas.height - paddleHeight - paddleVertPadding;
+			}
+
+			function UpdateMouse(event){
+				var rect = canvas.getBoundingClientRect();
+				var root = document.documentElement;
+
+				var mouseX = event.clientX - rect.left - root.scrollLeft;
+				var mouseY = event.clientY - rect.top - root.scrollTop;
+
+				paddlePosX = mouseX - paddleWidth/2;
+			}
+
+			function GameLoop() {
+				// Update Objects
+				UpdateAll();
+				
+				// Draw
+				Draw();
+			}
+
+			function UpdateAll() {
+				UpdateBall();
+				UpdatePaddle();
+			}
+
+			function Draw() {
+				//Clear canvas
+				ClearCanvas();
+
+				//Draw
+				DrawBall();
+				DrawPaddle();
+			}
+
+			function UpdateBall() {
+				ballPosX += ballVelX;
+				ballPosY += ballVelY;
+
+				if(ballPosX > canvas.width - ballRadius || ballPosX < 0 + ballRadius){
+					ballVelX = -ballVelX;
+				}
+
+				if(ballPosY < 0 + ballRadius){
+					ballVelY = -ballVelY;
+				}
+
+				if(ballPosY > canvas.height - ballRadius){
+					ResetBall();
+				}
+
+				if(CheckCircleIntersectRect(paddlePosX, paddlePosY, paddlePosX + paddleWidth, paddlePosY + paddleHeight, ballPosX, ballPosY, ballRadius)){
+
+					ballVelY = -ballVelY;
+
+					var centrePaddleX = paddlePosX + paddleWidth/2;
+					var distBallPaddleX = ballPosX - centrePaddleX;
+
+					ballVelX = distBallPaddleX * 0.35;
+				}
+			}
+
+			function ResetBall() {
+				ballPosX = canvas.width/2;
+				ballPosY = canvas.height/2;
+			}
+
+			function UpdatePaddle() {
+
+			}
+
+			function ClearCanvas() {
+				DrawRect(0, 0, canvas.width, canvas.height, clearColour);
+			}
+
+			function DrawBall() {
+				DrawCircle(ballPosX, ballPosY, ballRadius, ballColour);
+			}
+
+			function DrawPaddle() {
+				DrawRect(paddlePosX, paddlePosY, paddleWidth, paddleHeight, paddleColour);
+			}
+
+			function DrawCircle(x, y, r, colour){
+				canvasContext.fillStyle = colour;
+				canvasContext.beginPath();
+				canvasContext.arc(x, y, r, 0, 2 * Math.PI, true);
+				canvasContext.fill();
+			}
+
+			function DrawRect(x, y, w, h, colour){
+				canvasContext.fillStyle = colour;
+				canvasContext.fillRect(x,y,w,h);
+			}
+
+			function CheckCircleIntersectRect(rectX, rectY, rectW, rectH, circleX, circleY, circleRadius){
+				var cX, cY;
+
+				//Find closest point on rect
+				if(circleX < rectX){
+					cX = rectX;
+				}
+				else if(circleX > rectX + rectW){
+					cX = rectX + rectW;
+				}
+				else {
+					cX = circleX;
+				}
+
+				if(circleY < rectY){
+					cY = rectY;
+				}
+				else if(circleY > rectY + rectH){
+					cY = rectY + rectH;
+				}
+				else {
+					cY = circleY;
+				}
+
+				// If distance to closest point is less then radius, then intersect
+				if(DistanceSquared(circleX, circleY, cX, cY) < circleRadius * circleRadius){
+					return true;
+				}
+
+				return false;
+			}
+
+			function DistanceSquared(x1, y1, x2, y2){
+				var dX = x2 - x1;
+				var dY = y2 - y1;
+
+				return dX*dX + dY*dY;
+			}
+
+		</script>
+	</body>
+</html>
