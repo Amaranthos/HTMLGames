@@ -13,7 +13,7 @@
 			const ballRadius = 10;
 			const ballColour = "white";
 
-			const ballStartVelX = ;
+			const ballStartVelX = 0;
 			const ballStartVelY = 5;
 
 			var ballPosX; 
@@ -112,11 +112,11 @@
 				ballPosX += ballCurrVelX;
 				ballPosY += ballCurrVelY;
 
-				if(ballPosX > canvas.width - ballRadius || ballPosX < 0 + ballRadius){
+				if((ballPosX > canvas.width - ballRadius && ballCurrVelX > 0) || (ballPosX < 0 + ballRadius && ballCurrVelX < 0)){
 					ballCurrVelX = -ballCurrVelX;
 				}
 
-				if(ballPosY < 0 + ballRadius){
+				if(ballPosY < 0 + ballRadius && ballCurrVelY < 0){
 					ballCurrVelY = -ballCurrVelY;
 				}
 

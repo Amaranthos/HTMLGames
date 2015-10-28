@@ -4,24 +4,208 @@
 		"selected_items":
 		[
 			[
+				"ca",
+				"carSpeed"
+			],
+			[
+				"gr",
+				"grassPic"
+			],
+			[
+				"ro",
+				"roadPic"
+			],
+			[
+				"cer",
+				"createElement〔function〕"
+			],
+			[
+				"en",
+				"engine"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"zom",
+				"zoomSpeed"
+			],
+			[
+				"cart",
+				"carTurnRate〔variable〕"
+			],
+			[
+				"carR",
+				"carRot"
+			],
+			[
+				"Key",
+				"KeyHeld〔variable〕"
+			],
+			[
+				"carT",
+				"carTurnRate〔variable〕"
+			],
+			[
+				"R",
+				"Right"
+			],
+			[
+				"carp",
+				"carPosY〔variable〕"
+			],
+			[
+				"carr",
+				"carRot〔variable〕"
+			],
+			[
+				"car",
+				"carPosY〔variable〕"
+			],
+			[
+				"Dr",
+				"DrawImg"
+			],
+			[
+				"ba",
+				"ballPosY"
+			],
+			[
+				"bal",
+				"ballPosX〔variable〕"
+			],
+			[
+				"can",
+				"canvasContext〔variable〕"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"crea",
+				"createElement〔function〕"
+			],
+			[
+				"Cla",
+				"ClampFOV"
+			],
+			[
+				"zo",
+				"zoomSpeed"
+			],
+			[
+				"trac",
+				"trackWidth〔variable〕"
+			],
+			[
+				"tra",
+				"trackWidth〔variable〕"
+			],
+			[
+				"Trac",
+				"TrackAt〔function〕"
+			],
+			[
+				"tracC",
+				"trackCols〔variable〕"
+			],
+			[
+				"c",
+				"currFOV"
+			],
+			[
+				"fo",
+				"fieldOfView"
+			],
+			[
+				"ma",
+				"maxY"
+			],
+			[
+				"Bric",
+				"BrickAt"
+			],
+			[
+				"bric",
+				"bricks〔variable〕"
+			],
+			[
+				"brick",
+				"brickCols〔variable〕"
+			],
+			[
+				"ball",
+				"ballBrickIndex〔variable〕"
+			],
+			[
+				"Br",
+				"BrickExists"
+			],
+			[
+				"Brick",
+				"BrickExists〔function〕"
+			],
+			[
+				"bricksr",
+				"brickRows〔variable〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"mou",
+				"mouseY〔variable〕"
+			],
+			[
+				"balpo",
+				"ballPosY〔variable〕"
+			],
+			[
+				"Res",
+				"ResetBricks〔function〕"
+			],
+			[
+				"Chec",
+				"CheckBallCollisionBrick〔function〕"
+			],
+			[
+				"balr",
+				"ballRadius〔variable〕"
+			],
+			[
+				"balp",
+				"ballPosY〔variable〕"
+			],
+			[
+				"bricc",
+				"brickCols〔variable〕"
+			],
+			[
+				"pre",
+				"prevBallRow〔variable〕"
+			],
+			[
+				"Bal",
+				"BallPaddleCollision〔function〕"
+			],
+			[
+				"Ba",
+				"BallMove"
+			],
+			[
 				"pa",
 				"paddleHeight"
 			],
 			[
-				"ba",
-				"ballRadius"
-			],
-			[
-				"bal",
-				"ballRadius〔variable〕"
-			],
-			[
 				"mous",
 				"mouseX〔variable〕"
-			],
-			[
-				"scr",
-				"scrollLeft"
 			],
 			[
 				"doc",
@@ -62,14 +246,6 @@
 			[
 				"po",
 				"posY"
-			],
-			[
-				"can",
-				"canvas〔variable〕"
-			],
-			[
-				"ca",
-				"canvasContext"
 			],
 			[
 				"canvas",
@@ -338,192 +514,64 @@
 			[
 				"for",
 				"foreach"
-			],
-			[
-				"Curr",
-				"currentPath"
-			],
-			[
-				"sett",
-				"settings"
-			],
-			[
-				"dj",
-				"dj_database_url"
-			],
-			[
-				"tag",
-				"tagURL〔variable〕"
-			],
-			[
-				"ass",
-				"assertEqual"
-			],
-			[
-				"cat",
-				"catURL〔variable〕"
-			],
-			[
-				"ctae",
-				"category"
-			],
-			[
-				"Cat",
-				"Category〔module〕"
-			],
-			[
-				"post",
-				"posted"
-			],
-			[
-				"ma",
-				"markdown〔function〕"
-			],
-			[
-				"assertT",
-				"assertTemplateUsed〔function〕"
-			],
-			[
-				"as",
-				"assertTrue"
-			],
-			[
-				"ex",
-				"extras"
-			],
-			[
-				"mar",
-				"markdown2〔module〕"
-			],
-			[
-				"templa",
-				"template"
-			],
-			[
-				"assert",
-				"assertTrue"
-			],
-			[
-				"del",
-				"deleted"
-			],
-			[
-				"delt",
-				"delete"
-			],
-			[
-				"20",
-				"2015"
-			],
-			[
-				"ad",
-				"admin"
-			],
-			[
-				"Post",
-				"PostFactory〔class〕"
-			],
-			[
-				"add",
-				"added"
-			],
-			[
-				"cate",
-				"category"
-			],
-			[
-				"utf",
-				"utf-8"
-			],
-			[
-				"dele",
-				"deleted"
-			],
-			[
-				"Tag",
-				"TagFactory〔class〕"
-			],
-			[
-				"Cate",
-				"Category〔module〕"
-			],
-			[
-				"astr",
-				"assertTrue〔function〕"
-			],
-			[
-				"ut",
-				"utf-8"
-			],
-			[
-				"cont",
-				"content"
-			],
-			[
-				"re",
-				"response〔variable〕"
-			],
-			[
-				"fo",
-				"follow"
-			],
-			[
-				"catge",
-				"category"
-			],
-			[
-				"admi",
-				"admin"
-			],
-			[
-				"asse",
-				"assertEquals〔function〕"
-			],
-			[
-				"Pos",
-				"PostFactory〔class〕"
-			],
-			[
-				"Ca",
-				"CategoryFactory〔class〕"
-			],
-			[
-				"slu",
-				"slugify〔module〕"
-			],
-			[
-				"sl",
-				"slugify〔module〕"
-			],
-			[
-				"cl",
-				"client"
-			],
-			[
-				"ta",
-				"tag〔variable〕"
-			],
-			[
-				"categ",
-				"category〔variable〕"
-			],
-			[
-				"django",
-				"django_jenkins"
-			],
-			[
-				"her",
-				"heroes"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "Racer/game.js",
+			"settings":
+			{
+				"buffer_size": 838,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Racer/track.js",
+			"settings":
+			{
+				"buffer_size": 2096,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Racer/engine/input.js",
+			"settings":
+			{
+				"buffer_size": 1307,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Racer/engine/draw.js",
+			"settings":
+			{
+				"buffer_size": 701,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Racer/car.js",
+			"settings":
+			{
+				"buffer_size": 1663,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Racer/engine/images.js",
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Racer/racer.html",
+			"settings":
+			{
+				"buffer_size": 595,
 				"line_ending": "Windows"
 			}
 		}
@@ -628,10 +676,27 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames"
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Breakout",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/engine"
 	],
 	"file_history":
 	[
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/racer.html",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Breakout/breakout.html",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/engine/draw.js",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/engine/input.js",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/track.js",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/car.js",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/math.js",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/game.js",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/draw.js",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/physics.js",
+		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/Racer/draw,js",
+		"/C/Users/Josh/Desktop/Projects/Games/Utangard/Utangard/Assets/Scripts/Vision.cs",
+		"/C/Users/Josh/Desktop/Projects/Games/Utangard/Utangard/Assets/Scripts/Unit.cs",
+		"/C/Users/Josh/Desktop/Projects/Applications/DDrawClient/src/heatmap.d",
 		"/C/Users/Josh/Desktop/Projects/Playgrounds/HTMLGames/HTMLGames",
 		"/C/Users/Josh/Desktop/Projects/Playgrounds/Html Games/Breakout/game.html",
 		"/C/Users/Josh/Desktop/Minecraft/Regrowth/minecraft/saves/New World/HardcoreQuesting/players.dat",
@@ -651,7 +716,6 @@
 		"/C/Users/Josh/Desktop/Projects/Games/Utangard/Utangard/Assets/Scripts/TerrainList.cs",
 		"/C/Users/Josh/Desktop/Projects/Games/Utangard/Utangard/Assets/Scripts/Tile.cs",
 		"/C/Users/Josh/Desktop/Projects/Games/Utangard/Utangard/Assets/Scripts/Path.cs",
-		"/C/Users/Josh/Desktop/Projects/Games/Utangard/Utangard/Assets/Scripts/Unit.cs",
 		"/C/Users/Josh/Desktop/Projects/Games/Utangard/Utangard/Assets/Scripts/MapGen.cs",
 		"/C/Users/Josh/Desktop/Minecraft/Regrowth/minecraft/config/magicalcrops.cfg",
 		"/C/Users/Josh/Desktop/Projects/Games/Utangard/Utangard/Assets/Scripts/Grid.cs",
@@ -746,20 +810,7 @@
 		"/C/Users/Josh/AppData/Roaming/Sublime Text 3/Packages/User/djangomig.sublime-snippet",
 		"/C/Users/Josh/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Josh/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Josh/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/Default (Windows).sublime-keymap",
-		"/C/Users/Josh/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
-		"/C/Users/Josh/Desktop/Projects/Web/jhcom/src/jhcom.sublime-project",
-		"/C/Users/Josh/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
-		"/C/Users/Josh/AppData/Roaming/Sublime Text 3/Packages/Shell Turtlestein/Shell Turtlestein.sublime-settings",
-		"/C/Users/Josh/Documents/key",
-		"/C/Users/Josh/Desktop/Projects/Games/SDLRPG/SDLRPG/Grid.cpp",
-		"/C/Users/Josh/Desktop/Projects/Games/SDLRPG/.gitignore",
-		"/C/Users/Josh/Downloads/SDL2_image-2.0.0-win32-x86/README.txt",
-		"/C/Users/Josh/Desktop/Projects/Games/SDLRPG/.git/refs/heads/master",
-		"/C/Users/Josh/Desktop/Projects/Games/SDLRPG/SDLRPG/LevelManager.cpp",
-		"/C/Users/Josh/Desktop/Projects/Games/SDLRPG/SDLRPG/MapParser.cpp",
-		"/C/Users/Josh/Desktop/Projects/Games/SDLRPG/SDLRPG/Grid.h",
-		"/C/Users/Josh/Desktop/Projects/Web/jhcom/src/blog/models.py"
+		"/C/Users/Josh/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
@@ -778,6 +829,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"UpdateAll",
+			"CheckCarCollisionTrack",
+			"Reverse",
+			"Accelerate",
+			"TrackExists",
+			"Road",
+			"+",
+			"true",
+			"carSpeed",
+			"carRot",
+			"CheckCarCollisionTrack",
+			"carCurrVelX",
+			"carPosX",
+			"carCurrVelX",
+			"carStartVelY",
+			"carStartVelX",
+			"Ball",
+			"ball",
+			"DrawTracks",
+			"TrackAt",
+			"tracks",
+			"i",
+			"Reset",
+			"0",
+			"1",
+			"0",
+			"tracksRemaining",
+			"ResetTra",
+			"Res",
+			"Rest",
+			"Brick",
+			"brick",
+			"paddle",
+			"IndexBrick",
+			"X",
 			"1",
 			"5",
 			"radius",
@@ -869,43 +956,7 @@
 			"ttile",
 			"name",
 			"6",
-			"cat",
-			"h1",
-			"prepopulated_fields = {'slug' : ('title',)}",
-			"game",
-			"	site = models.ForeignKey(Site)\n",
-			"site",
-			"post",
-			"posted",
-			"pub_date",
-			"posted",
-			"all",
-			"('-posted')",
-			"get",
-			"[0]",
-			"all",
-			"date",
-			"cat",
-			"categories",
-			"']\n",
-			"') ",
-			"Contributor",
-			"contributor",
-			"Contributor",
-			"contributor",
-			"Contributor",
-			"contributor",
-			"Contributor",
-			"contributor",
-			"Contributor",
-			"contributor",
-			"Contributor",
-			"contributor",
-			"Contributor",
-			"contributor",
-			"Contributor",
-			"contributor",
-			"site"
+			"cat"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -913,6 +964,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Car",
+			"car",
+			"Track",
+			"track",
 			""
 		],
 		"reverse": false,
@@ -924,11 +979,161 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "Racer/game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Racer/track.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Racer/engine/input.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Racer/engine/draw.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								662,
+								662
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Racer/car.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								551
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Racer/engine/images.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -945,8 +1150,36 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Racer/racer.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1005,7 +1238,7 @@
 	"project": "htmlgames.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
