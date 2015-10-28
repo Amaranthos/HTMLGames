@@ -2,19 +2,16 @@ var mouseX;
 var mouseY;
 
 const KeyCode = {
+	Crtl: 17,
 	Space: 32,
 	Left: 37,
 	Up: 38,
 	Right: 39,
-	Down: 40
-}
-
-var KeyHeld = {
-	Space: false,
-	Left: false,
-	Up: false,
-	Right: false,
-	Down: false
+	Down: 40,
+	A: 65,
+	D: 68,
+	S: 83,
+	W: 87
 }
 
 function AddListeners() {
@@ -22,6 +19,9 @@ function AddListeners() {
 
 	document.addEventListener('keydown', KeyPressed);
 	document.addEventListener('keyup', KeyReleased);
+
+	blueCar.Controls(KeyCode.Up, KeyCode.Down, KeyCode.Left, KeyCode.Right, KeyCode.Space);
+	redCar.Controls(KeyCode.W, KeyCode.S, KeyCode.A, KeyCode.D, KeyCode.Crtl);
 }
 
 function UpdateMouse(event){
@@ -33,39 +33,14 @@ function UpdateMouse(event){
 }
 
 function KeyPressed(event) {
-	if(event.keyCode == KeyCode.Left){
-		KeyHeld.Left = true;
-	}
-	if(event.keyCode == KeyCode.Right){
-		KeyHeld.Right = true;
-	}
-	if(event.keyCode == KeyCode.Up){
-		KeyHeld.Up = true;
-	}
-	if(event.keyCode == KeyCode.Down){
-		KeyHeld.Down = true;
-	}
-	if(event.keyCode == KeyCode.Space){
-		KeyHeld.Space = true;
-	}
+
+	blueCar.KeyHeld(event, true);
+	redCar.KeyHeld(event, true);
 
 	event.preventDefault();
 }
 
 function KeyReleased(event){
-	if(event.keyCode == KeyCode.Left){
-		KeyHeld.Left = false;
-	}
-	if(event.keyCode == KeyCode.Right){
-		KeyHeld.Right = false;
-	}
-	if(event.keyCode == KeyCode.Up){
-		KeyHeld.Up = false;
-	}
-	if(event.keyCode == KeyCode.Down){
-		KeyHeld.Down = false;
-	}
-	if(event.keyCode == KeyCode.Space){
-		KeyHeld.Space = false;
-	}
+	blueCar.KeyHeld(event, false);
+	redCar.KeyHeld(event, false);
 }

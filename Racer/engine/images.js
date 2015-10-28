@@ -1,15 +1,6 @@
 var imgsRemaining = 0;
 
-function LoadImgs() {
-	LoadImg(carPic,"img/car.png");
-	LoadImg(roadPic, "img/tile_road.png");
-	LoadImg(wallPic, "img/tile_wall.png");
-	LoadImg(grassPic, "img/tile_grass.png");
-}
-
 function LoadImg(img, path){
-	imgsRemaining++;
-
 	img.onload = function(){
 		imgsRemaining--;
 		console.log("Image: " + path + " loaded!");
@@ -19,7 +10,7 @@ function LoadImg(img, path){
 		}
 	}
 
-	img.src = path;
+	img.src = "img/" + path;
 }
 
 function DrawImg(img, dX, dY, rot){
@@ -30,6 +21,6 @@ function DrawImg(img, dX, dY, rot){
 	canvasContext.restore();
 }
 
-function DrawTile(img, dX, dY){
+function DrawImgNoRot(img, dX, dY){
 	canvasContext.drawImage(img, dX, dY);
 }
